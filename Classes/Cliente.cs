@@ -7,9 +7,16 @@ namespace CadastroVendaPoo.Classes{
         private string cpf;
 
         private DateTime datadecadstro;
-        public Cliente ()
+        public Cliente (){
 
-        {
+            /// <summary>
+            /// Constroi o objeto Cliente e voce precisa passar os dados como parametro
+            /// </summary>
+            /// <param name="nome">Passe o nome do cliente como texto</param>
+            /// <param name="email">Passe o email do cliente como texto</param>
+            /// <param name="cpf">Passe o CPF do cliente com texto</param>
+            /// <param name="datacadastro">Passe a data de cadastro como DateTime</param>
+            /// <returns></returns>
             
         }
         public Cliente(string nome, string email,string cpf, DateTime datacadastro){
